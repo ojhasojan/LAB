@@ -1,0 +1,59 @@
+Git & GitHub
+
+1. What is Git?
+- Git is a version control system used to track changes in files.
+- Helps teams collaborate and manage code versions.
+
+2. What is GitHub?
+- GitHub is an online hosting platform for Git repositories.
+- Used for collaboration, backups, and project sharing.
+
+3. Install Git
+- Check Git version:
+  git --version
+
+4. Configure Git
+  git config --global user.name "Your Name"
+  git config --global user.email "your@email.com"
+
+5. Create a Local Repository
+  mkdir myproject
+  cd myproject
+  git init
+
+6. Create and Track Files
+  touch index.html
+  git status
+  git add index.html
+  git commit -m "Initial commit"
+
+7. Connect Local Repo to GitHub
+  git remote add origin https://github.com/username/repo.git
+  git branch -M main
+  git push -u origin main
+
+8. Basic Commands
+  git add .
+  git commit -m "message"
+  git push
+  git pull
+  git log
+
+9. Branching
+  git checkout -b feature1
+  git checkout main
+  git merge feature1
+  git branch -d feature1
+
+10. Common Errors
+- Remote exists: git remote remove origin
+- Nothing to commit: make changes first
+- Branch not found: git branch -a
+
+11. Student Practice Guidelines
+- Create weekly repositories
+- Push commits daily
+- Practice branching
+- Collaborate with peers
+
+
